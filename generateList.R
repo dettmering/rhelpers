@@ -1,9 +1,9 @@
 # Generates list with all combinations of values in columns of a data frame
 
-generateList <- function(src, columns, rm.empty = T) {
+generateList <- function(src, columns, rm.empty = TRUE) {
   df <- as.data.frame(table(src[,columns]))
 
-  if (rm.empty == T) {
+  if (rm.empty == TRUE) {
     df <- subset(df, Freq > 0)
   }
 
