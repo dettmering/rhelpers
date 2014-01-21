@@ -1,6 +1,6 @@
 # Generates list with all combinations of values in columns of a data frame
 
-generateList <- function(src, columns, rm.empty = TRUE) {
+generateList <- function(src, columns, rm.empty = TRUE, row.no = FALSE) {
   df <- as.data.frame(table(src[,columns]))
 
   if (rm.empty == TRUE) {
@@ -8,6 +8,10 @@ generateList <- function(src, columns, rm.empty = TRUE) {
   }
 
   colnames(df)[1:(length(columns) + 1)] <- c(columns, 'n')
-  df$row.no <- rownames(df)
+  
+  if (row.no == TRUE) {
+    df$row.no <- rownames(df)
+  }
+  
   return (df)
 }
