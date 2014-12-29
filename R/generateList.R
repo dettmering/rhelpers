@@ -1,4 +1,6 @@
-# Generates list with all combinations of values in columns of a data frame
+#' Generates list with all combinations of values in columns of a data frame
+#' @param src source data frame
+#' @param columns list of columns of interest
 
 generateList <- function(src, columns, rm.empty = TRUE, row.no = FALSE) {
   df <- as.data.frame(table(src[,columns]))
