@@ -1,4 +1,4 @@
-r-helpers
+rhelpers
 =========
 
 Helper functions for R
