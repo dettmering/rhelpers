@@ -4,9 +4,7 @@
 #' @export
 #' @param group.by columns to group by
 
-aggregateColumns <- function(df, colums.of.interest, group.by) {
-  source("generateList.R")
-  
+aggregateColumns <- function(df, colums.of.interest, group.by) {  
   result <- generateList(df, group.by)
 
   for (i in 1:length(result[, group.by])) {
