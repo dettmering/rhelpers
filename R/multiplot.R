@@ -10,6 +10,9 @@
 #
 # Source: http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_%28ggplot2%29/
 
+#' Generates multiple plots in single view
+#' @export
+
 multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
   require(grid)
   

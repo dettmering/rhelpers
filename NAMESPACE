@@ -3,3 +3,4 @@
 export(aggregateColumns)
 export(dfBackup)
 export(generateList)
+export(multiplot)
