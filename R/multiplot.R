@@ -1,16 +1,15 @@
-# Multiple plot function
-#
-# ggplot objects can be passed in ..., or to plotlist (as a list of ggplot objects)
-# - cols:   Number of columns in layout
-# - layout: A matrix specifying the layout. If present, 'cols' is ignored.
-#
-# If the layout is something like matrix(c(1,2,3,3), nrow=2, byrow=TRUE),
-# then plot 1 will go in the upper left, 2 will go in the upper right, and
-# 3 will go all the way across the bottom.
-#
-# Source: http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_%28ggplot2%29/
-
-#' Generates multiple plots in single view
+#' Multiple plot function
+#'
+#' ggplot objects can be passed in ..., or to plotlist (as a list of ggplot objects)
+#' - cols:   Number of columns in layout
+#' - layout: A matrix specifying the layout. If present, 'cols' is ignored.
+#'
+#' If the layout is something like matrix(c(1,2,3,3), nrow=2, byrow=TRUE),
+#' then plot 1 will go in the upper left, 2 will go in the upper right, and
+#' 3 will go all the way across the bottom.
+#'
+#' Source: http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_%28ggplot2%29/
+#' This work is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported License. The R code is freely available for use without any restrictions. In other words: you may reuse the R code for any purpose (and under any license), but if you want to reuse the other content of this website, you must adhere to the CC license.
 #' @export
 
 multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
