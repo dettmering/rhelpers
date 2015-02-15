@@ -12,8 +12,6 @@ aggregateDataset(mean, stdev, rpl)
 \item{stdev}{List of corresponding standard deviations}
 
 \item{rpl}{List of corresponding replicate counts}
-
-\item{src}{source data frame}
 }
 \description{
 Till Dettmering, tilldettmering(at)gmail.com
