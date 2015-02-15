@@ -2,6 +2,8 @@
 #' @param src source data frame
 #' @export
 #' @param columns list of columns of interest
+#' @param rm.empty remove empty combinations. If this is set to FALSE, all possible combinations of all columns of interest will be returned.
+#' @param row.no generate an extra column with the row name
 
 generateList <- function(src, columns, rm.empty = TRUE, row.no = FALSE) {
   df <- as.data.frame(table(src[,columns]))

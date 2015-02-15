@@ -10,6 +10,10 @@ generateList(src, columns, rm.empty = TRUE, row.no = FALSE)
 \item{src}{source data frame}
 
 \item{columns}{list of columns of interest}
+
+\item{rm.empty}{remove empty combinations. If this is set to FALSE, all possible combinations of all columns of interest will be returned.}
+
+\item{row.no}{generate an extra column with the row name}
 }
 \description{
 Generates list with all combinations of values in columns of a data frame
