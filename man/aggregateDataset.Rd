@@ -2,9 +2,7 @@
 % Please edit documentation in R/aggregatedatasets.R
 \name{aggregateDataset}
 \alias{aggregateDataset}
-\title{Aggregate Datasets
-Till Dettmering, tilldettmering(at)gmail.com
-based on http://books.google.de/books?id=cn3JtP5ugQsC&lpg=PA141&ots=YHV9PQJB9v&dq=varianz%20von%20%20zusammengefasste%20gruppen%20formel&hl=de&pg=PA141#v=onepage&q&f=false}
+\title{Aggregate Datasets}
 \usage{
 aggregateDataset(mean, stdev, rpl)
 }
@@ -18,8 +16,9 @@ aggregateDataset(mean, stdev, rpl)
 \item{src}{source data frame}
 }
 \description{
-Aggregate Datasets
 Till Dettmering, tilldettmering(at)gmail.com
+}
+\details{
 based on http://books.google.de/books?id=cn3JtP5ugQsC&lpg=PA141&ots=YHV9PQJB9v&dq=varianz%20von%20%20zusammengefasste%20gruppen%20formel&hl=de&pg=PA141#v=onepage&q&f=false
 }
 
