@@ -1,4 +1,5 @@
 #' Aggregate Columns of a data frame
+#' 
 #' @param df source data frame
 #' @param colums.of.interest list of columns to aggregate
 #' @export

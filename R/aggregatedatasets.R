@@ -1,5 +1,7 @@
 #' Aggregate Datasets
+#' 
 #' Till Dettmering, tilldettmering(at)gmail.com
+#' 
 #' based on http://books.google.de/books?id=cn3JtP5ugQsC&lpg=PA141&ots=YHV9PQJB9v&dq=varianz%20von%20%20zusammengefasste%20gruppen%20formel&hl=de&pg=PA141#v=onepage&q&f=false
 #' @param src source data frame
 #' @export
