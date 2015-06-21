@@ -8,6 +8,8 @@ theme_bw2 <- function(base_size = 12, base_family = "") {
                         axis.text         = element_text(size = rel(0.8)),
                         axis.ticks        = element_line(colour = "black"),
                         legend.key        = element_rect(colour = "grey80"),
+                        legend.title      = element_text(size = 13, face = "bold"),
+                        legend.text       = element_text(size = 13),
                         panel.background  = element_rect(fill = "white", colour = NA),
                         panel.border      = element_rect(fill = NA, colour = "black", size = 1),
                         panel.grid.major  = element_blank(),
