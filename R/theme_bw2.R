@@ -15,6 +15,7 @@ theme_bw2 <- function(base_size = 12, base_family = "") {
                         panel.grid.major  = element_blank(),
                         panel.grid.minor  = element_blank(),
                         strip.background  = element_rect(fill = "grey80", colour = "grey50", size = 0.2),
+                        strip.text        = element_text(size = 14),
                         axis.text.x       = element_text(size = 13),
                         axis.text.y       = element_text(size = 13),
                         axis.title.x      = element_text(size = 14),
