@@ -4,6 +4,6 @@ Description: Tills R helper scripts
 Version: 0.1
 Authors@R: person("Till", "Dettmering", email = "tilldettmering@gmail.com", 
   role = c("aut", "cre"))
-Depends: R (>= 3.0.2)
+Depends: R (>= 3.0.2), ggplot2, grid
 LazyData: true
 License: The MIT License
